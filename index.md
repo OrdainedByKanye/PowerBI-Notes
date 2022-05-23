@@ -1,3 +1,18 @@
+
+# DAX
+
+## Custom DAX Functions for Measures
+
+### Totals
+
+#### Totals with Filters
+
+`Total Sales - Example
+Calculate (
+  [Total Sales],
+  dimProduct[Product Category] = "Hair Care"
+  )`
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/OrdainedByKanye/PowerBI-Notes/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
